@@ -1,0 +1,139 @@
+\hypertarget{vector_8hpp}{}\section{vector.\+hpp File Reference}
+\label{vector_8hpp}\index{vector.\+hpp@{vector.\+hpp}}
+{\ttfamily \#include \char`\"{}ostream\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} (int \hyperlink{vector_8hpp_a6150e0515f7202e2fb518f7206ed97dc}{x}=0, int y=0)
+\begin{DoxyCompactList}\small\item\em The constructor of an Vector. \end{DoxyCompactList}\item 
+\hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \hyperlink{vector_8hpp_a9af16b41f973cd073b089bf5371e8a70}{operator+} () const
+\begin{DoxyCompactList}\small\item\em returns himself vector \end{DoxyCompactList}\item 
+\hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \hyperlink{vector_8hpp_a9d639bc53d77f17c6ba3af1dd9549424}{operator+} (const \hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \&rhs) const
+\begin{DoxyCompactList}\small\item\em Adds 2 vector into a new vector. \end{DoxyCompactList}\item 
+\hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \& \hyperlink{vector_8hpp_a401c12597814627f350a8cd663b6dba5}{operator+=} (const \hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \&rhs)
+\begin{DoxyCompactList}\small\item\em Adds a vector into another vector. \end{DoxyCompactList}\item 
+bool \hyperlink{vector_8hpp_a0066b879f704f7d344ec9cd2a2f57ea3}{operator==} (const \hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \&rhs) const
+\begin{DoxyCompactList}\small\item\em Compares 2 vectors. \end{DoxyCompactList}\item 
+\hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \hyperlink{vector_8hpp_ad4e924ee21af1367f8724b2d94db110e}{operator$\ast$} (const int rhs) const
+\begin{DoxyCompactList}\small\item\em multiplies a vector with an integer \end{DoxyCompactList}\item 
+\hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \hyperlink{vector_8hpp_a9ef97fde561d0998f1db1af7c9fbbff8}{operator$\ast$} (const \hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \&rhs) const
+\begin{DoxyCompactList}\small\item\em multiplies 2 vectors \end{DoxyCompactList}\item 
+\hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \& \hyperlink{vector_8hpp_ad7dba928c0f8e3bef217dd1d97ebfb8f}{operator$\ast$=} (const \hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \&rhs)
+\begin{DoxyCompactList}\small\item\em multiplies a vector into a vector \end{DoxyCompactList}\item 
+std\+::ostream \& \hyperlink{vector_8hpp_a02e8a6593db986c147f0f44d75922138}{operator$<$$<$} (std\+::ostream \&lhs, const \hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \&rhs)
+\begin{DoxyCompactList}\small\item\em prints a vector in the command line \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{vector_8hpp_a6150e0515f7202e2fb518f7206ed97dc}{x}
+\begin{DoxyCompactList}\small\item\em vector operator \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{vector_8hpp_a0a2f84ed7838f07779ae24c5a9086d33}\label{vector_8hpp_a0a2f84ed7838f07779ae24c5a9086d33}} 
+int {\bfseries y}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{vector_8hpp_ad4e924ee21af1367f8724b2d94db110e}\label{vector_8hpp_ad4e924ee21af1367f8724b2d94db110e}} 
+\index{vector.\+hpp@{vector.\+hpp}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!vector.\+hpp@{vector.\+hpp}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} vector\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const int}]{rhs }\end{DoxyParamCaption}) const}
+
+
+
+multiplies a vector with an integer 
+
+This operator multiplies a vector with an integer into a new vector, the new vector is returned \mbox{\Hypertarget{vector_8hpp_a9ef97fde561d0998f1db1af7c9fbbff8}\label{vector_8hpp_a9ef97fde561d0998f1db1af7c9fbbff8}} 
+\index{vector.\+hpp@{vector.\+hpp}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!vector.\+hpp@{vector.\+hpp}}
+\subsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} vector\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \&}]{rhs }\end{DoxyParamCaption}) const}
+
+
+
+multiplies 2 vectors 
+
+This operator multiplies 2 vector into a new vector, the new vector is returned \mbox{\Hypertarget{vector_8hpp_ad7dba928c0f8e3bef217dd1d97ebfb8f}\label{vector_8hpp_ad7dba928c0f8e3bef217dd1d97ebfb8f}} 
+\index{vector.\+hpp@{vector.\+hpp}!operator$\ast$=@{operator$\ast$=}}
+\index{operator$\ast$=@{operator$\ast$=}!vector.\+hpp@{vector.\+hpp}}
+\subsubsection{\texorpdfstring{operator$\ast$=()}{operator*=()}}
+{\footnotesize\ttfamily \hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \& vector\+::operator$\ast$= (\begin{DoxyParamCaption}\item[{const \hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \&}]{rhs }\end{DoxyParamCaption})}
+
+
+
+multiplies a vector into a vector 
+
+This operator multiplies a vector into a vector, thereby it changes the first vector the first vector is returned \mbox{\Hypertarget{vector_8hpp_a9af16b41f973cd073b089bf5371e8a70}\label{vector_8hpp_a9af16b41f973cd073b089bf5371e8a70}} 
+\index{vector.\+hpp@{vector.\+hpp}!operator+@{operator+}}
+\index{operator+@{operator+}!vector.\+hpp@{vector.\+hpp}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} vector\+::operator+ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+returns himself vector 
+
+This operatotor return himself \mbox{\Hypertarget{vector_8hpp_a9d639bc53d77f17c6ba3af1dd9549424}\label{vector_8hpp_a9d639bc53d77f17c6ba3af1dd9549424}} 
+\index{vector.\+hpp@{vector.\+hpp}!operator+@{operator+}}
+\index{operator+@{operator+}!vector.\+hpp@{vector.\+hpp}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} vector\+::operator+ (\begin{DoxyParamCaption}\item[{const \hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \&}]{rhs }\end{DoxyParamCaption}) const}
+
+
+
+Adds 2 vector into a new vector. 
+
+This operator return a vector made from adding the x\+\_\+pos and the y\+\_\+pos of both vector \mbox{\Hypertarget{vector_8hpp_a401c12597814627f350a8cd663b6dba5}\label{vector_8hpp_a401c12597814627f350a8cd663b6dba5}} 
+\index{vector.\+hpp@{vector.\+hpp}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!vector.\+hpp@{vector.\+hpp}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}}
+{\footnotesize\ttfamily \hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \& vector\+::operator+= (\begin{DoxyParamCaption}\item[{const \hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \&}]{rhs }\end{DoxyParamCaption})}
+
+
+
+Adds a vector into another vector. 
+
+This operator adds a vector into another vector Thereby it changes the first vector and returns himself \mbox{\Hypertarget{vector_8hpp_a02e8a6593db986c147f0f44d75922138}\label{vector_8hpp_a02e8a6593db986c147f0f44d75922138}} 
+\index{vector.\+hpp@{vector.\+hpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!vector.\+hpp@{vector.\+hpp}}
+\subsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily friend std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{lhs,  }\item[{const \hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \&}]{rhs }\end{DoxyParamCaption})}
+
+
+
+prints a vector in the command line 
+
+This operator prints a into the command line \mbox{\Hypertarget{vector_8hpp_a0066b879f704f7d344ec9cd2a2f57ea3}\label{vector_8hpp_a0066b879f704f7d344ec9cd2a2f57ea3}} 
+\index{vector.\+hpp@{vector.\+hpp}!operator==@{operator==}}
+\index{operator==@{operator==}!vector.\+hpp@{vector.\+hpp}}
+\subsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool vector\+::operator== (\begin{DoxyParamCaption}\item[{const \hyperlink{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}{vector} \&}]{rhs }\end{DoxyParamCaption}) const}
+
+
+
+Compares 2 vectors. 
+
+This operator compares 2 vectors there x\+\_\+pos and y\+\_\+pos and returns a boo value \mbox{\Hypertarget{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}\label{vector_8hpp_ada69c108ec9393e6f70bdfcd58366cbf}} 
+\index{vector.\+hpp@{vector.\+hpp}!vector@{vector}}
+\index{vector@{vector}!vector.\+hpp@{vector.\+hpp}}
+\subsubsection{\texorpdfstring{vector()}{vector()}}
+{\footnotesize\ttfamily vector\+::vector (\begin{DoxyParamCaption}\item[{int}]{x = {\ttfamily 0},  }\item[{int}]{y = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+The constructor of an Vector. 
+
+This is a constructor that makes a vector from two parameters a x pos and a y pos, with a default value of 0 for both pos 
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{vector_8hpp_a6150e0515f7202e2fb518f7206ed97dc}\label{vector_8hpp_a6150e0515f7202e2fb518f7206ed97dc}} 
+\index{vector.\+hpp@{vector.\+hpp}!x@{x}}
+\index{x@{x}!vector.\+hpp@{vector.\+hpp}}
+\subsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily int x}
+
+
+
+vector operator 
+
+this library contains a c++ and a h++ file, it defines and declares some operator, used with a vector. it also contains a constructor for a vector 
