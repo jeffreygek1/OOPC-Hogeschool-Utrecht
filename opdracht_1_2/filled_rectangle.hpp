@@ -10,6 +10,14 @@
 
 #include "filled_rectangle.hpp"
 
+/// @file
+
+/// \brief
+/// filled_rectangle
+/// \details
+/// this library contains a c++ and a h++ file, it contains a constructor and a print function 
+/// for a filled_rectangle made out of 4 coordinates and a window
+
 class filled_rectangle {
 private:
    int start_x;
@@ -18,6 +26,10 @@ private:
    int end_y;
    window & w;
 public:
+/// \brief
+/// The constructor of a filled_rectangle
+/// \details
+/// This is a constructor that makes a strucure from five parameters
    filled_rectangle( window & w, int start_x, int start_y, int end_x, int end_y ):
       start_x( start_x ),
       start_y( start_y ),

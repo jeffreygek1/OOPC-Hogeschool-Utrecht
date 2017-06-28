@@ -30,14 +30,8 @@
   <Dependencies/>
   <VirtualDirectory Name="source">
     <File Name="main.cpp"/>
-    <File Name="circle.cpp"/>
-    <File Name="circle.hpp"/>
     <File Name="filled_rectangle.cpp"/>
     <File Name="filled_rectangle.hpp"/>
-    <File Name="line.cpp"/>
-    <File Name="line.hpp"/>
-    <File Name="structure.cpp"/>
-    <File Name="structure.hpp"/>
     <File Name="window.cpp"/>
     <File Name="window.hpp"/>
     <File Name="makefile"/>

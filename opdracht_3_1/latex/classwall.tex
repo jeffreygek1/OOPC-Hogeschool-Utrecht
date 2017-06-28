@@ -1,0 +1,93 @@
+\hypertarget{classwall}{}\section{wall Class Reference}
+\label{classwall}\index{wall@{wall}}
+
+
+wall  
+
+
+
+
+{\ttfamily \#include $<$wall.\+hpp$>$}
+
+Inheritance diagram for wall\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classwall}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classwall_a6bbd0a74571562b849a2446ba29978dc}{wall} (\hyperlink{classwindow}{window} \&w, const \hyperlink{classvector}{vector} \&start, const \hyperlink{classvector}{vector} \&end, int update\+\_\+interval)
+\begin{DoxyCompactList}\small\item\em The constructor of a wall. \end{DoxyCompactList}\item 
+void \hyperlink{classwall_abbae6802729e5a2e2a83a61694747b33}{draw} () override
+\begin{DoxyCompactList}\small\item\em a draw function of a wall \end{DoxyCompactList}\item 
+void \hyperlink{classwall_a84c4981162efc4f914e064c30ad52f03}{update} () override
+\begin{DoxyCompactList}\small\item\em a update function of a wall \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classwall_a2af7171cd8c999284e9ebdd7eac8cfea}\label{classwall_a2af7171cd8c999284e9ebdd7eac8cfea}} 
+bool {\bfseries filled}
+\item 
+\mbox{\Hypertarget{classwall_ab3bc2d0218d9c5b24969f74571bc9b96}\label{classwall_ab3bc2d0218d9c5b24969f74571bc9b96}} 
+int {\bfseries update\+\_\+interval}
+\item 
+\mbox{\Hypertarget{classwall_abaaa1fcf2ab29e7c4523b6526ad03f2f}\label{classwall_abaaa1fcf2ab29e7c4523b6526ad03f2f}} 
+int {\bfseries update\+\_\+count}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+wall 
+
+this library contains a c++ and a h++ file, it contains a constructor, a draw function and a update function 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classwall_a6bbd0a74571562b849a2446ba29978dc}\label{classwall_a6bbd0a74571562b849a2446ba29978dc}} 
+\index{wall@{wall}!wall@{wall}}
+\index{wall@{wall}!wall@{wall}}
+\subsubsection{\texorpdfstring{wall()}{wall()}}
+{\footnotesize\ttfamily wall\+::wall (\begin{DoxyParamCaption}\item[{\hyperlink{classwindow}{window} \&}]{w,  }\item[{const \hyperlink{classvector}{vector} \&}]{start,  }\item[{const \hyperlink{classvector}{vector} \&}]{end,  }\item[{int}]{update\+\_\+interval }\end{DoxyParamCaption})}
+
+
+
+The constructor of a wall. 
+
+This is a constructor that makes a wall from four parameters it has a start and an end pos also an update interval 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classwall_abbae6802729e5a2e2a83a61694747b33}\label{classwall_abbae6802729e5a2e2a83a61694747b33}} 
+\index{wall@{wall}!draw@{draw}}
+\index{draw@{draw}!wall@{wall}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void wall\+::draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+a draw function of a wall 
+
+if filled this function makes a wall using 4 rectangles, each an pixel thick 
+
+Reimplemented from \hyperlink{classrectangle}{rectangle}.
+
+\mbox{\Hypertarget{classwall_a84c4981162efc4f914e064c30ad52f03}\label{classwall_a84c4981162efc4f914e064c30ad52f03}} 
+\index{wall@{wall}!update@{update}}
+\index{update@{update}!wall@{wall}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void wall\+::update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+a update function of a wall 
+
+this count towards the update counts, if meeted it inverts the state of filled 
+
+Reimplemented from \hyperlink{classdrawable}{drawable}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{wall_8hpp}{wall.\+hpp}\item 
+wall.\+cpp\end{DoxyCompactItemize}

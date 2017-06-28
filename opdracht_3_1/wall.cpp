@@ -2,6 +2,10 @@
 // definition of the functions of a rectangle object
 
 #include "wall.hpp"
+/// \brief
+/// a update function of a wall
+/// \details
+/// this count towards the update counts, if meeted it inverts the state of filled
 void wall::update(){
     update_count+=1;
     if(update_count == update_interval){
@@ -10,6 +14,11 @@ void wall::update(){
     }
 }
 
+/// \brief
+/// The constructor of a wall
+/// \details
+/// This is a constructor that makes a wall from four parameters
+/// it has a start and an end pos also an update interval
 wall::wall( window & w, const vector & start, const vector & end, int update_interval):
     rectangle(w, start, end),
     filled(true),
@@ -17,6 +26,10 @@ wall::wall( window & w, const vector & start, const vector & end, int update_int
     update_count(0)
     {}
     
+/// \brief
+/// a draw function of a wall
+/// \details
+/// if filled this function makes a wall using 4 rectangles, each an pixel thick
 void wall::draw(){
     vector lb = start;
     vector ro = end;

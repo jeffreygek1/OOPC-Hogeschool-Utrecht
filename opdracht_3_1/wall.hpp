@@ -7,6 +7,14 @@
 #include "line.hpp"
 #include "rectangle.hpp"
 
+/// @file
+
+/// \brief
+/// wall
+/// \details
+/// this library contains a c++ and a h++ file, 
+/// it contains a constructor, a draw function and a update function
+
 class wall : public rectangle {
 protected:
     bool filled;
